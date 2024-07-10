@@ -1,22 +1,26 @@
-body {
-    font-family: sans-serif;
-  }
-.container {
-  width: 550px;
-  margin: 0 auto;
-  padding: 30px;
-  border: 1px solid rgb(158, 156, 156);
+body{
+
+  font-family: sans-serif;
+
 }
 h2 {
   margin-bottom: 10px;
 }
-.question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+.container{
+  border: 1px solid rgb(158, 156, 156);
+  margin: 0 auto;
+  padding: 30px;
+  width: 500px;
+}
+summary{
+  padding: 20px;
+  list-style-type: none;
   border-bottom: 1px solid rgb(233, 228, 228);
 }
-.plus {
+i{
+  float: right;
+}
+p{
+  margin:20px;
   cursor: pointer;
 }
