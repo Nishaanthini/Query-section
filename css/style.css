@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+  }
+.container {
+  width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid rgb(158, 156, 156);
+}
+h2 {
+  margin-bottom: 10px;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(233, 228, 228);
+}
+.plus {
+  cursor: pointer;
+}
